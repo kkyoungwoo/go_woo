@@ -1,4 +1,19 @@
 * {
-  background: yellowgreen;
+  margin: 0;
+  padding: 0;
+  font-family: 'KoPub Dotum';
+}
+
+ul, li {
+  list-style: none;
+}
+
+.default-link {
+  text-decoration: none;
+}
+
+.warpper {
+  width: 100vw;
+  margin: 0 auto;
 }
 /*# sourceMappingURL=app.css.map */

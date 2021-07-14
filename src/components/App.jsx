@@ -18,7 +18,7 @@ function App(props) {
             <Route path="/" component={Mainpage} exact />
             <Route component={NotFound} />
           </Switch>
-          {props.test}
+          {/*props.test*/}
         <Footer />
       </Router>
     </div>

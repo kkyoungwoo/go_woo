@@ -5,7 +5,7 @@ function Mainpage(props){
 
     return(
         <div>
-            hellow Mainpage
+            hellow Mainpage안녕
             {props.test}
         </div>
     )
