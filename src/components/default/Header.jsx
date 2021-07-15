@@ -6,43 +6,47 @@ export default function Header(){
 
     const [ menuBtn,setMenuBtn ] = useState(true)
     const [displayNone,setDisplayNone] = useState(" menu_btn")
-    const [ menuPosition,setMenuPosition ] = useState("relative")
 
     const menuHandling = useCallback(() => {
         setMenuBtn(!menuBtn)
-        menuBtn ? setDisplayNone(" menu_btn") : setDisplayNone("")
-        menuBtn ? setMenuPosition("heights") : setMenuPosition("")
+        menuBtn ? setDisplayNone(" active") : setDisplayNone("")
     })
 
     return(
-        <header className="warpper">
-            <nav className={menuPosition}>
-                <img src="/assets/header/menu.png" className={"menu_btn"}/>
-                <div className={"menu_warp" + displayNone}>
-                    <ul>
-                        <li>
-                            <Link to='/about' className="default-link" >About</Link>
-                        </li>
-                        <li>
-                            <Link to='/portfolio' className="default-link" >Portfolio</Link>
-                        </li>
-                        <li>
-                            <Link to='/contact' className="default-link" >Contact</Link>
-                        </li>
-                        <li>
-                            <Link to='/gallery' className="default-link" >Gallery</Link>
-                        </li>
-                    </ul>
-                    <ul className="login_warp">
-                        <li className="login">
-                            <Link to='/login' className="default-link loginbtn" >Login</Link>
-                        </li>
-                        <div className="closebtn">
-                            close
-                        </div>
-                    </ul>
-                </div>
-            </nav>
-        </header>
+        <div className={"navigation" + displayNone}>
+            <input type="checkbox" id="gnbcheck" name="gnbcheck" />
+            <label for="gnbcheck" id="gnbbtn">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+            <header id="header">
+                <h1 id="top_logo">
+                    <Link to='/' className="default-link" >
+                        <img src="../assets/common/logo/logo_white.png"  style={{ width: "80px"}}alt="Logo" />
+                    </Link>
+                </h1>
+                <nav id="gnb">
+                <label for="gnbcheck" id="mobile_close_btn"></label>
+                <ul>
+                    <li>
+                    <Link to='/about' className="default-link" >About</Link>
+                    </li>
+                    <li>
+                    <Link to='/portfolio' className="default-link" >Portfolio</Link>
+                    </li>
+                    <li>
+                    <Link to='/contact' className="default-link" >Contact</Link>
+                    </li>
+                    <li>
+                    <Link to='/gallery' className="default-link" >Gallery</Link>
+                    </li>
+                    <li>
+                    <Link to='/login' className="default-link loginbtn" >Login</Link>
+                    </li>
+                </ul>
+                </nav>
+            </header>
+        </div>
     )
 }

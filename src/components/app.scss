@@ -12,7 +12,10 @@ ul,li{
     text-decoration: none;
   }
 
-.warpper{
-    width: 100vw;
-    margin: 0 auto;
+  .App{
+      padding-top: 60px;
+  }
+
+  .warpper{
+      min-height: calc(100vh - 60px);
 }

@@ -1,11 +1,16 @@
 import React from "react";
 import { connect } from 'react-redux'
+import './mainpage.css'
 
 function Mainpage(props){
 
     return(
-        <div>
-            hellow Mainpage안녕
+        <div className="warpper mainpage">
+            <div>hellow Mainpage안녕</div>
+            <div>hellow Mainpage안녕</div>
+            <div>hellow Mainpage안녕</div>
+            <div>hellow Mainpage안녕</div>
+            <div>hellow Mainpage안녕</div>
             {props.test}
         </div>
     )

@@ -1,0 +1,23 @@
+.warpper.notfound{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: black;
+    width: 100%;
+    height: 100vh;
+
+    .notfound_flex{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        img{
+            width: 100%;
+        }
+        .notfound_text{
+            position: absolute;
+            font-size: 24px;
+            color: white;
+        }
+    }
+}

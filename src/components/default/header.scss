@@ -1,58 +1,167 @@
-header{
-    font-weight: 700;
-}
+input[type=checkbox]#gnbcheck{ display: none; }
 
-.menu_img{
-    width: 30px;
-    height: 30px;
-    margin-left: 30px;
-}
-
-.menu_btn{
+#gnbbtn{
     display: none;
-    @media screen and ( max-width : 600px){
-        display: flex;
-        align-self: flex-start;
-        justify-self: center;
-        width: 30px;
-        height: 30px;
-        padding: 15px 0;
+    position: absolute;
+    top: 12px;
+    right: 10px;
+    width: 32px;
+    height: 32px;
+    z-index: 900;
+    span{
+        position: absolute;
+        top: 16px;
+        height: 3px;
+        width: 32px;
+        background: white;
+        transform: translateY(-50%);
+      }
+      span:nth-child(1){
+        top: 6px;
+      }
+
+      span:nth-child(2){
+        top: 16px;
+      }
+      
+      span:nth-child(3){
+        top: 26px;
+      }
+  }
+
+  #mobile_close_btn{
+    display: none;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 32px;
+    height: 32px;
+    &:before,&:after{
+        content: '';
+        display: none;
+        position: absolute;
+        height: 1.6px;
+        width: 32px;
+        background: white;
+        top: 16px;
+        transform: translateY(-50%) rotate(45deg);
+      }
+    &:before{
+        transform: translateY(-50%) rotate(-45deg);
     }
-}
+  }
 
+  #header{
+    position: fixed;
+    width: 100%;
+    overflow: hidden;
+    top: 0;
+    z-index: 800;
+    background: rgba(0,0,0,.3);
 
-.warpper{
-    .heights{
-        height: 390px;
-    }
-
-    nav{
-        width: 100%;
-        height: 60px;
-        background: skyblue;
-        display: flex;
-        div{
+    #top_logo{
+        float: left;
+        .default-link {
             display: flex;
-            justify-content: space-between;
-            transition: 1s;
-            ul:first-child::after{
-                content: '';
-                position: absolute;
-                width: 20px;
-                height: 2px;
-            }
-            ul{
-                display: flex;
-                align-items: center;
-                li{
-                    margin-left: 30px;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            height: 60px;
+            line-height: 60px;
+            padding: 0 20px;
+            font-size: 24px;
+          }
+      }
+
+      #gnb{
+        float: right;
+        ul{
+            overflow: hidden;/*li 정렬*/
+            li{
+                float: left;
+                .default-link{
+                    color: white;
+                    display: block;
+                    height: 60px;
+                    line-height: 60px;
+                    padding: 0 15px;
                 }
-                .login{
-                    display: flex;
-                    align-items: center;
-                    margin-right: 30px;
-                }
             }
-        }
+          }
+
+      }
+  }
+
+  @media screen and ( max-width: 1200px ) {
+    section .row .column{
+      flex: 50%;
     }
-}
+    section#myprofile .row .column .inner img{
+      width: 30%;
+    }
+    #footer .container{
+      width: 100%;
+    }
+    #footer .container .row .column{
+      flex: 50%;
+    }
+  }
+  @media screen and ( max-width: 767px ) {
+    #mobile_close_btn{
+      display: block;
+      &:before,&:after{
+        display: block;
+      }
+  }
+
+    section .row .column{
+      flex: 100%;
+    }
+    section#ourclients .row .column, section#mytool .row .column{
+      flex: 50%;
+    }
+    #footer .container .row .column{
+      flex: 100%;
+    }
+    /*mobile gnb*/
+    input[type=checkbox]#gnbcheck:checked ~ #header #gnb{
+      left: 0;
+    }
+  
+    #gnbbtn{
+      display: block;
+    }
+  
+    #gnb{
+      position: fixed;
+      top: 0;
+      bottom: 0;
+      left: -100%;
+      width: 85%;
+      background: rgba(0,0,0,.8);
+      transition: .5s ease-in-out;
+    }
+  
+    #gnb ul{
+      padding-top: 50px;
+    }
+  
+    #gnb ul li{
+      width: 100%;
+      box-sizing: border-box;
+      padding-left: 10px;
+    }
+  
+    #header{
+      position: absolute;
+    }
+  }
+  
+  @media screen and ( max-width: 380px ) {
+    section#ourclients .row .column{
+      flex: 100%;
+    }
+    section#mytool .row .column{
+      flex: 100%;
+    }
+  }

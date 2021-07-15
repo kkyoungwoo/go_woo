@@ -3,9 +3,9 @@ import './footer.css'
 
 export default function Footer(){
     return(
-        <div className="warpper">
+        <div className="footer">
             <footer>
-                ⓒ 2021 UI/UX DEV. Ko Kyoung WOO
+                ⓒ 2021 UI/UX DEV. Ko Kyoung Woo
             </footer>
         </div>
     )
