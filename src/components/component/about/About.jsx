@@ -1,7 +1,7 @@
 import React from "react";
 import './about.css'
 
-import Prodiction from '../../common/Prodiction'
+import Prodiction from './Prodiction'
 
 export default function About(){
     return(

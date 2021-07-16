@@ -1,7 +1,12 @@
 import React from "react";
 import { connect } from 'react-redux'
 import './mainpage.css'
-import Mainbanner from './Mainbanner'
+
+import MainBanner from './MainBanner'
+import Carousel from '../portfolio/Carousel'
+import Prodiction from '../about/Prodiction'
+import Github from '../../common/Github'
+import FooterBanner from './FooterBanner'
 
 function Mainpage(props){
 
@@ -9,16 +14,13 @@ function Mainpage(props){
         <div className="warpper">
             <div className="page_defualt">
                 <div className="warp_defualt">
-                    <Mainbanner />
-                    1. 베너
-                    <br/>
-                    2. 포트폴리오 캐러셀
-                    <br/>
-                    3. production (I made this brand's website at the company.)
-                    <br/>
-                    4.contect me
-                    <br/>
-                    5.github 안내
+                    <MainBanner />
+                    <Carousel/>
+                    <Prodiction />
+                    <Github />
+                    <FooterBanner />
+                    
+                    {props.test}
                 </div>
             </div>
         </div>

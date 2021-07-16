@@ -11,6 +11,15 @@
             width: 80%;
             border: 1px solid black;
             box-shadow: 5px 5px 15px 5px skyblue;
+            .title_text{
+                text-align: center;
+                font-size: 30px;
+                font-weight: 700;
+                margin: 30px 0;
+                border-bottom: 1px solid rgba(0,0,0,.5);
+                padding-bottom: 30px;
+                border-radius: 100%;
+            }
         }
     }
 }

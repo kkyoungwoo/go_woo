@@ -10,7 +10,7 @@ export default function Contact(){
                         Contact
                     </div>
                     <div className="history">
-                        <div>2년차 퍼블리셔 & UI/UX 컴포넌트 개발자 성연욱입니다.</div>
+                        <div>2년차 퍼블리셔 & UI/UX 컴포넌트 개발자 고경우입니다.</div>
                         <div>하고싶은 말을 남겨주세요. :)</div>
                         <ul>
                             <li>
@@ -37,7 +37,7 @@ export default function Contact(){
                         <button>등록</button>
                     </div>
                     <div className="talk_warp">
-                        데이터베이스 삽입 예정
+                        댓글 데이터 삽입 예정
                     </div>
                 </div>
             </div>
