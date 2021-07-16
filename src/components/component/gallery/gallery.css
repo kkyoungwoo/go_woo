@@ -1,0 +1,11 @@
+.warpper .page_defualt.gallery {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.warpper .page_defualt.gallery img {
+  width: 100px;
+}
+/*# sourceMappingURL=gallery.css.map */

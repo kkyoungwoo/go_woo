@@ -1,20 +1,4 @@
-.warpper.notfound {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  background: black;
-  width: 100%;
-  height: 100vh;
-  overflow: hidden;
-}
-
-.warpper.notfound .notfound_flex {
+.warpper .page_defualt .login_page.warp_defualt {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -30,13 +14,16 @@
           align-items: center;
 }
 
-.warpper.notfound .notfound_flex img {
-  width: 100%;
+.warpper .page_defualt .login_page.warp_defualt .login_box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
-
-.warpper.notfound .notfound_flex .notfound_text {
-  position: absolute;
-  font-size: 24px;
-  color: white;
-}
-/*# sourceMappingURL=notfound.css.map */
+/*# sourceMappingURL=login.css.map */

@@ -1,0 +1,15 @@
+.warpper {
+    .page_defualt{
+        .login_page.warp_defualt{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            .login_box{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+            }
+        }
+    }
+}
