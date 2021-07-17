@@ -1,3 +1,122 @@
+.skills_warp {
+}
+
+@mixin textbox_bg {
+    width: 100px;
+    background: rgba(0, 0, 0, .2);
+    text-align: center;
+    border-radius: 5px;
+}
+
+@mixin icon_bg {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.html {
+    background: url('../../../img/html.png');
+    @include icon_bg
+}
+
+.css {
+    background: url('../../../img/css.png');
+    @include icon_bg
+}
+
+.javascript {
+    background: url('../../../img/js.png');
+    @include icon_bg
+}
+
+.jquery {
+    background: url('../../../img/jquery.png');
+    @include icon_bg
+}
+
+.yarn {
+    background: url('../../../img/yarn.png');
+    @include icon_bg
+}
+
+.zepline {
+    background: url('../../../img/zepline.png');
+    @include icon_bg
+}
+
+.redux {
+    background: url('../../../img/redux.png');
+    @include icon_bg
+}
+
+.react {
+    background: url('../../../img/react.png');
+    @include icon_bg
+}
+
+.pigma {
+    background: url('../../../img/pigma.png');
+    @include icon_bg
+}
+
+.photoshop {
+    background: url('../../../img/photoshop.png');
+    @include icon_bg
+}
+
+.oven {
+    background: url('../../../img/oven.png');
+    @include icon_bg
+}
+
+.notion {
+    background: url('../../../img/notion.png');
+    @include icon_bg
+}
+
+.nas {
+    background: url('../../../img/nas.png');
+    @include icon_bg
+}
+
+.vscode {
+    background: url('../../../img/vscode.png');
+    @include icon_bg
+}
+
+.illustrator {
+    background: url('../../../img/illustrator.png');
+    @include icon_bg
+}
+
+.github {
+    background: url('../../../img/github.png');
+    @include icon_bg
+}
+
+.git {
+    background: url('../../../img/git.png');
+    @include icon_bg
+}
+
+.firebase {
+    background: url('../../../img/firebase.png');
+    @include icon_bg
+}
+
+.aws {
+    background: url('../../../img/aws.jpg');
+    @include icon_bg
+}
+
+.api {
+    background: url('../../../img/api.png');
+    @include icon_bg
+}
+
 .warpper {
     .page_defualt {
         display: flex;
@@ -19,6 +138,40 @@
                 border-bottom: 1px solid rgba(0,0,0,.5);
                 padding-bottom: 30px;
                 border-radius: 100%;
+            }
+            .subtitle_text{
+                font-size: 20px;
+                font-weight: 700;
+                text-align: left;
+                padding: 25px;
+            }
+            .history_warp {
+                .history {
+                    li{
+                        display: flex;
+                        .text_box {
+                            @include textbox_bg
+                        }
+                    }
+                }
+            }
+            .skills{
+                ul{
+                    li{
+                        .text_box{
+                            @include textbox_bg
+                        }
+                    }
+                }
+            }
+            .study{
+                ul{
+                    li{
+                        .text_box {
+                            @include textbox_bg
+                        }
+                    }
+                }
             }
         }
     }

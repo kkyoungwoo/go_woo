@@ -3,6 +3,7 @@ import './about.css'
 
 import Prodiction from './Prodiction'
 
+
 export default function About(){
     return(
         <div className="warpper">
@@ -11,32 +12,38 @@ export default function About(){
                     <div className="title_text">
                         ABOUT
                     </div>
-                    <div className="history">
-                        <div>UI/UX DEVELOPOR 고경우를 소개합니다.</div>
-                        <ul>
+                    <div className="history_warp">
+                        <div className="subtitle_text">UI/UX DEVELOPOR 고경우를 소개합니다.</div>
+                        <ul className="history">
                             <li>
-                                <div>이름</div>
+                                <div className="text_box">이름</div>
                                 <div>고경우</div>
                             </li>
                             <li>
-                                <div>이메일</div>
+                                <div className="text_box">이메일</div>
                                 <div>bizdb@kakao.com</div>
                             </li>
                             <li>
-                                <div>핸드폰</div>
+                                <div className="text_box">핸드폰</div>
                                 <div>010-4242-3088</div>
                             </li>
                         </ul>
                     </div>
                     <div className="skills">
-                        <h2>실무 스킬 / Skills</h2>
+                        <div className="subtitle_text">실무 스킬 / Skills</div>
                         <ul>
                             <li>
-                                <div>Default</div>
+                                <div className="text_box">Default</div>
                                 <div>
-                                    <div>HTML5, CSS3, JavaScript, jQuery</div>
+                                    <div className="skills_warp">
+                                        VScord<div className="vscode"></div>
+                                        , HTML5<div className="html"></div>
+                                        , CSS3<div className="css"></div>
+                                        , JavaScript<div className="javascript"></div>
+                                        , jQuery<div className="jquery"></div>
+                                    </div>
                                     <div>
-                                        - 기본적으로 퍼블리싱할 때 사용하는 언어 및 라이브러리
+                                        - 기본적으로 퍼블리싱할 때 사용하는 언어 및 라이브러리!
                                     </div>
                                     <div>
                                         - 전통적인 웹앱 제작 방식에서 정적인 HTML로 협업 시 사용하는 기술!
@@ -44,49 +51,65 @@ export default function About(){
                                 </div>
                             </li>
                             <li>
-                                <div>Special I</div>
+                                <div className="text_box">Special I Dev</div>
                                 <div>
-                                    <div>React.js + Next.js + Redux</div>
+                                    <div className="skills_warp">
+                                        React<div className="react"></div>
+                                        , Redux<div className="redux"></div>
+                                        , Yarn<div className="yarn"></div>
+                                    </div>
                                     <div>
                                         <div>
-                                            기본적으로 퍼블리싱할 때 사용하는 언어 및 라이브러리
+                                            - 동적인 웹에 최적화된 자바스크립트 라이브러리, 리액트!
                                         </div>
                                         <div>
-                                            - 전통적인 웹앱 제작 방식에서 정적인 HTML로 협업 시 사용하는 기술!
+                                            - 리엑트에서 중앙데이터 관리를 위한 리덕스 툴!
                                         </div>
                                         <div>
-                                            - 중앙데이터 관리를 위한 리덕스!
+                                            - npm 보다 생산성이 좋은 yarn
                                         </div>
                                     </div>
                                 </div>
                             </li>
                             <li>
-                                <div>Special II</div>
+                                <div className="text_box">Special II Design</div>
                                 <div>
-                                    <div> Vue.js + Nuxt.js + Vuex</div>
+                                    <div className="skills_warp">
+                                        Photoshop<div className="photoshop"></div>
+                                        , Illustrator<div className="illustrator"></div>
+                                        , Oven<div className="oven"></div>
+                                    </div>
                                     <div>
                                         <div>
-                                            - 동적인 웹에 최적화된 또 다른 자바스크립트 프레임워크, 뷰!
+                                            - 기초적인 보정작업을 할 수 있는 포토샵!
                                         </div>
                                         <div>
-                                            - 뷰로 웹앱을 쉽게 제작하기 위해 사용되는 넉스트!
+                                            - 기초적인 아이콘 디자인을 할 수 있는 일러스트! 
                                         </div>
                                         <div>
-                                            - 중앙데이터 관리를 위한 뷰엑스!
+                                            - 프로토타이핑을 빠르게 하기 위한 카카오 오븐!
                                         </div>
                                     </div>
                                 </div>
                             </li>
                             <li>
-                                <div>협업</div>
+                                <div className="text_box">협업</div>
                                 <div>
-                                    <div>GIT, SVN</div>
+                                    <div className="skills_warp">
+                                        Notion<div className="notion"></div>
+                                        , NAS<div className="nas"></div>
+                                        , Pigma<div className="pigma"></div>
+                                        , Zepline<div className="zepline"></div>
+                                    </div>
                                     <div>
                                         <div>
-                                            - 형상관리시스템을 활용한 개발자간의 협업 경험 많음
+                                            - Notion을 이용한 업무일지, 협업 경험!
                                         </div>
                                         <div>
-                                            - 깃을 활용한 다양한 브랜치 전략
+                                            - NAS를 이용한 대용량 파일 저장소 경험!
+                                        </div>
+                                        <div>
+                                            - Pigma,Zepline 을 이용한 퍼블리싱 경험!
                                         </div>
                                     </div>
                                 </div>
@@ -94,37 +117,39 @@ export default function About(){
                         </ul>
                     </div>
                     <div className="study">
-                        <div>개인 공부 TO-BE</div>
+                        <div className="subtitle_text">개인 공부 TO-BE</div>
                         <ul>
                             <li>
-                                <div>NPM</div>
-                                <div>
-                                    <div>Sequelize, Prisma, Webpack, Gulp, jest, Storybook ...</div>
+                                <div className="text_box">API</div>
+                                <div className="skills_warp">
+                                    API<div className="api"></div>
                                     <div>
-                                        <div>
-                                            - 자바스크립트 백엔드 개발을 위한 ORM 사용(Sequelize, Prisma)
-                                        </div>
+                                        - Email.js, kakao, naver 등 웹 개발에 필요한 API 개발!
                                     </div>
                                 </div>
                             </li>
                             <li>
-                                <div>DB</div>
+                                <div className="text_box">DB</div>
                                 <div>
-                                    <div>Firebase</div>
+                                    <div className="skills_warp">
+                                        Firebase<div className="firebase"></div>
+                                    </div>
                                     <div>
                                         <div>
                                             간단한 웹앱 제작을 위한 DB 사용
                                         </div>
                                         <div>
-                                        - 백엔드 서버와 API에 대한 이해를 위해 개인적으로 공부
+                                            - 백엔드 서버와 API에 대한 이해를 위해 개인적으로 공부
                                         </div>
                                     </div>
                                 </div>
                             </li>
                             <li>
-                                <div>호스팅</div>
+                                <div className="text_box">호스팅</div>
                                 <div>
-                                    <div>AWS, Heroku, Netlify</div>
+                                    <div className="skills_warp">
+                                        AWS<div className="aws"></div>
+                                    </div>
                                     <div>
                                         <div>
                                             - 개인적으로 공부하며 개발한 웹앱 배포 및 서비스
@@ -133,9 +158,12 @@ export default function About(){
                                 </div>
                             </li>
                             <li>
-                                <div>저장소</div>
+                                <div className="text_box">저장소</div>
                                 <div>
-                                    <div> Github</div>
+                                    <div className="skills_warp">
+                                        Github<div className="github"></div>
+                                        , Git<div className="git"></div>
+                                    </div>
                                     <div>
                                         <div>
                                             - 계속해서 공부하는 내용을 업데이트 하고 있으며 우측 버튼을 통해 public 저장소 확인 가능

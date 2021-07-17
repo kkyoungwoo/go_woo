@@ -1,3 +1,203 @@
+.html {
+  background: url("../../../img/html.png");
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.css {
+  background: url("../../../img/css.png");
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.javascript {
+  background: url("../../../img/js.png");
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.jquery {
+  background: url("../../../img/jquery.png");
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.yarn {
+  background: url("../../../img/yarn.png");
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.zepline {
+  background: url("../../../img/zepline.png");
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.redux {
+  background: url("../../../img/redux.png");
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.react {
+  background: url("../../../img/react.png");
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.pigma {
+  background: url("../../../img/pigma.png");
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.photoshop {
+  background: url("../../../img/photoshop.png");
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.oven {
+  background: url("../../../img/oven.png");
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.notion {
+  background: url("../../../img/notion.png");
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.nas {
+  background: url("../../../img/nas.png");
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.vscode {
+  background: url("../../../img/vscode.png");
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.illustrator {
+  background: url("../../../img/illustrator.png");
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.github {
+  background: url("../../../img/github.png");
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.git {
+  background: url("../../../img/git.png");
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.firebase {
+  background: url("../../../img/firebase.png");
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.aws {
+  background: url("../../../img/aws.jpg");
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.api {
+  background: url("../../../img/api.png");
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .warpper .page_defualt {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -29,5 +229,39 @@
   border-bottom: 1px solid rgba(0, 0, 0, 0.5);
   padding-bottom: 30px;
   border-radius: 100%;
+}
+
+.warpper .page_defualt .warp_defualt .subtitle_text {
+  font-size: 20px;
+  font-weight: 700;
+  text-align: left;
+  padding: 25px;
+}
+
+.warpper .page_defualt .warp_defualt .history_warp .history li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.warpper .page_defualt .warp_defualt .history_warp .history li .text_box {
+  width: 100px;
+  background: rgba(0, 0, 0, 0.2);
+  text-align: center;
+  border-radius: 5px;
+}
+
+.warpper .page_defualt .warp_defualt .skills ul li .text_box {
+  width: 100px;
+  background: rgba(0, 0, 0, 0.2);
+  text-align: center;
+  border-radius: 5px;
+}
+
+.warpper .page_defualt .warp_defualt .study ul li .text_box {
+  width: 100px;
+  background: rgba(0, 0, 0, 0.2);
+  text-align: center;
+  border-radius: 5px;
 }
 /*# sourceMappingURL=about.css.map */

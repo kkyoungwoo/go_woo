@@ -18,10 +18,10 @@ export default function Login(){
                         <div>
                             <div>SOCOAL LOGIN</div>
                             <div className="socoal_box">
-                                <div className="google">
+                                <div className="google_login">
                                 google 로그인
                                 </div>
-                                <div className="github">
+                                <div className="github_login">
                                     github 로그인
                                 </div>
                             </div>
