@@ -19,7 +19,6 @@ function Mainpage(props){
                     <Prodiction />
                     <Github />
                     <FooterBanner />
-                    
                     {props.test}
                 </div>
             </div>
