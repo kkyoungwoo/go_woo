@@ -29,23 +29,29 @@ export default function About(){
                             </li>
                             <li>
                                 <div className="text_box">경력사항</div>
-                                <div className="text_box_sub">2020.12.30 ~ 재직중</div>
+                                <div className="text_box_sub">
+                                    <div>2020.12.30 ~ 재직중 | dearcare | developer</div>
+                                </div>
                             </li>
                             <li>
                                 <div className="text_box">주요 작업물</div>
                                 <div className="text_box_sub">
-                                    <div>최근 작업물 순</div>
-                                    <div>최근 작업물 순</div>
-                                    <div>최근 작업물 순</div>
+                                    <div>대구 EXCO 설문폼 구축</div>
+                                    <div>디어케어 반응형 구축</div>
                                 </div>
                             </li>
                             <li>
                                 <div className="text_box">주요 기술</div>
                                 <div className="text_box_sub">
-                                    <div>실무에서 중점적으로 사용하는 기술</div>
-                                    <div>실무에서 중점적으로 사용하는 기술</div>
-                                    <div>실무에서 중점적으로 사용하는 기술</div>
-                                    <div>실무에서 중점적으로 사용하는 기술</div>
+                                    <div>
+                                        <div className="react"></div>React.js
+                                    </div>
+                                    <div>
+                                        <div className="html"></div>HTML5
+                                    </div>
+                                    <div>
+                                        <div className="scss"></div>Scss
+                                    </div>
                                 </div>
                             </li>
                         </ul>
@@ -77,7 +83,7 @@ export default function About(){
                                 <div className="text_box">Special I</div>
                                 <div>
                                     <div className="skills_warp">
-                                        <div className="react"></div>React,
+                                        <div className="react"></div>React.js,
                                         <div className="redux"></div>Redux,
                                         <div className="yarn"></div>Yarn
                                     </div>
@@ -89,7 +95,7 @@ export default function About(){
                                             - 리엑트에서 중앙데이터 관리를 위한 리덕스 툴!
                                         </div>
                                         <div>
-                                            - npm 보다 생산성이 좋은 yarn
+                                            - npm 보다 생산성이 좋은 yarn!
                                         </div>
                                     </div>
                                 </div>
@@ -121,8 +127,8 @@ export default function About(){
                                     <div className="skills_warp">
                                         <div className="notion"></div>Notion,
                                         <div className="nas"></div>NAS,
-                                        <div className="pigma"></div>Pigma
-                                        <div className="zepline"></div>, Zepline
+                                        <div className="pigma"></div>Pigma,
+                                        <div className="zepline"></div> Zepline
                                     </div>
                                     <div className="skills_warp_sub">
                                         <div>
@@ -144,12 +150,14 @@ export default function About(){
                         <ul>
                             <li>
                                 <div className="text_box">API</div>
-                                <div className="skills_warp">
+                                <div>
+                                    <div className="skills_warp">
                                     <div className="api"></div>API
-                                </div>
-                                <div className="skills_warp_sub">
-                                    <div>
+                                    </div>
+                                    <div className="skills_warp_sub">
+                                        <div>
                                         - Email.js, kakao, naver 등 웹 개발에 필요한 API 개발!
+                                        </div>
                                     </div>
                                 </div>
                             </li>
@@ -161,10 +169,10 @@ export default function About(){
                                     </div>
                                     <div className="skills_warp_sub">
                                         <div>
-                                            - 간단한 웹앱 제작을 위한 DB 사용
+                                            - 간단한 웹앱 제작을 위한 DB 사용!
                                         </div>
                                         <div>
-                                            - 백엔드 서버와 API에 대한 이해를 위해 개인적으로 공부
+                                            - 백엔드 서버와 API에 대한 이해를 위해 개인적으로 공부!
                                         </div>
                                     </div>
                                 </div>
@@ -176,9 +184,7 @@ export default function About(){
                                         <div className="aws"></div>AWS
                                     </div>
                                     <div className="skills_warp_sub">
-                                        <div>
-                                            - 개인적으로 공부하며 개발한 웹앱 배포 및 서비스
-                                        </div>
+                                        - 개인적으로 공부하며 개발한 웹앱 배포 및 서비스!
                                     </div>
                                 </div>
                             </li>
@@ -190,9 +196,9 @@ export default function About(){
                                         <div className="git"></div>Git
                                     </div>
                                     <div className="skills_warp_sub">
-                                        <div>
-                                            - 계속해서 공부하는 내용을 업데이트 하고 있으며 우측 버튼을 통해 public 저장소 확인 가능
-                                        </div>
+                                        - 계속해서 공부하는 내용을 업데이트 하고 있으며 우측 버튼을 통해 public 저장소 확인 가능!
+                                        <button><a href="https://github.com/kkyoungwoo" target="_blank">github</a></button>
+                                        <button className="git_button"><a href="https://git-scm.com/downloads" target="_blank">git</a></button>
                                     </div>
                                 </div>
                             </li>

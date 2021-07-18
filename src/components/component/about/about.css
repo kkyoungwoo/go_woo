@@ -1,201 +1,232 @@
 .html {
   background: url("../../../img/html.png");
   display: inline-block;
-  width: 20px;
-  height: 20px;
+  min-width: 16px;
+  min-height: 16px;
   background-position: center center;
   background-repeat: no-repeat;
   background-size: contain;
+  margin: 0 5px;
 }
 
 .css {
   background: url("../../../img/css.png");
   display: inline-block;
-  width: 20px;
-  height: 20px;
+  min-width: 16px;
+  min-height: 16px;
   background-position: center center;
   background-repeat: no-repeat;
   background-size: contain;
+  margin: 0 5px;
 }
 
 .javascript {
   background: url("../../../img/js.png");
   display: inline-block;
-  width: 20px;
-  height: 20px;
+  min-width: 16px;
+  min-height: 16px;
   background-position: center center;
   background-repeat: no-repeat;
   background-size: contain;
+  margin: 0 5px;
 }
 
 .jquery {
   background: url("../../../img/jquery.png");
   display: inline-block;
-  width: 20px;
-  height: 20px;
+  min-width: 16px;
+  min-height: 16px;
   background-position: center center;
   background-repeat: no-repeat;
   background-size: contain;
+  margin: 0 5px;
 }
 
 .yarn {
   background: url("../../../img/yarn.png");
   display: inline-block;
-  width: 20px;
-  height: 20px;
+  min-width: 16px;
+  min-height: 16px;
   background-position: center center;
   background-repeat: no-repeat;
   background-size: contain;
+  margin: 0 5px;
 }
 
 .zepline {
   background: url("../../../img/zepline.png");
   display: inline-block;
-  width: 20px;
-  height: 20px;
+  min-width: 16px;
+  min-height: 16px;
   background-position: center center;
   background-repeat: no-repeat;
   background-size: contain;
+  margin: 0 5px;
 }
 
 .redux {
   background: url("../../../img/redux.png");
   display: inline-block;
-  width: 20px;
-  height: 20px;
+  min-width: 16px;
+  min-height: 16px;
   background-position: center center;
   background-repeat: no-repeat;
   background-size: contain;
+  margin: 0 5px;
+}
+
+.scss {
+  background: url("../../../img/sass.png");
+  display: inline-block;
+  min-width: 16px;
+  min-height: 16px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin: 0 5px;
 }
 
 .react {
   background: url("../../../img/react.png");
   display: inline-block;
-  width: 20px;
-  height: 20px;
+  min-width: 16px;
+  min-height: 16px;
   background-position: center center;
   background-repeat: no-repeat;
   background-size: contain;
+  margin: 0 5px;
 }
 
 .pigma {
   background: url("../../../img/pigma.png");
   display: inline-block;
-  width: 20px;
-  height: 20px;
+  min-width: 16px;
+  min-height: 16px;
   background-position: center center;
   background-repeat: no-repeat;
   background-size: contain;
+  margin: 0 5px;
 }
 
 .photoshop {
   background: url("../../../img/photoshop.png");
   display: inline-block;
-  width: 20px;
-  height: 20px;
+  min-width: 16px;
+  min-height: 16px;
   background-position: center center;
   background-repeat: no-repeat;
   background-size: contain;
+  margin: 0 5px;
 }
 
 .oven {
   background: url("../../../img/oven.png");
   display: inline-block;
-  width: 20px;
-  height: 20px;
+  min-width: 16px;
+  min-height: 16px;
   background-position: center center;
   background-repeat: no-repeat;
   background-size: contain;
+  margin: 0 5px;
 }
 
 .notion {
   background: url("../../../img/notion.png");
   display: inline-block;
-  width: 20px;
-  height: 20px;
+  min-width: 16px;
+  min-height: 16px;
   background-position: center center;
   background-repeat: no-repeat;
   background-size: contain;
+  margin: 0 5px;
 }
 
 .nas {
   background: url("../../../img/nas.png");
   display: inline-block;
-  width: 20px;
-  height: 20px;
+  min-width: 16px;
+  min-height: 16px;
   background-position: center center;
   background-repeat: no-repeat;
   background-size: contain;
+  margin: 0 5px;
 }
 
 .vscode {
   background: url("../../../img/vscode.png");
   display: inline-block;
-  width: 20px;
-  height: 20px;
+  min-width: 16px;
+  min-height: 16px;
   background-position: center center;
   background-repeat: no-repeat;
   background-size: contain;
+  margin: 0 5px;
 }
 
 .illustrator {
   background: url("../../../img/illustrator.png");
   display: inline-block;
-  width: 20px;
-  height: 20px;
+  min-width: 16px;
+  min-height: 16px;
   background-position: center center;
   background-repeat: no-repeat;
   background-size: contain;
+  margin: 0 5px;
 }
 
 .github {
   background: url("../../../img/github.png");
   display: inline-block;
-  width: 20px;
-  height: 20px;
+  min-width: 16px;
+  min-height: 16px;
   background-position: center center;
   background-repeat: no-repeat;
   background-size: contain;
+  margin: 0 5px;
 }
 
 .git {
   background: url("../../../img/git.png");
   display: inline-block;
-  width: 20px;
-  height: 20px;
+  min-width: 16px;
+  min-height: 16px;
   background-position: center center;
   background-repeat: no-repeat;
   background-size: contain;
+  margin: 0 5px;
 }
 
 .firebase {
   background: url("../../../img/firebase.png");
   display: inline-block;
-  width: 20px;
-  height: 20px;
+  min-width: 16px;
+  min-height: 16px;
   background-position: center center;
   background-repeat: no-repeat;
   background-size: contain;
+  margin: 0 5px;
 }
 
 .aws {
   background: url("../../../img/aws.jpg");
   display: inline-block;
-  width: 20px;
-  height: 20px;
+  min-width: 16px;
+  min-height: 16px;
   background-position: center center;
   background-repeat: no-repeat;
   background-size: contain;
+  margin: 0 5px;
 }
 
 .api {
   background: url("../../../img/api.png");
   display: inline-block;
-  width: 20px;
-  height: 20px;
+  min-width: 16px;
+  min-height: 16px;
   background-position: center center;
   background-repeat: no-repeat;
   background-size: contain;
+  margin: 0 5px;
 }
 
 .warpper .page_defualt {
@@ -232,10 +263,10 @@
 }
 
 .warpper .page_defualt .warp_defualt .subtitle_text {
-  font-size: 20px;
+  font-size: 16px;
   font-weight: 700;
   text-align: left;
-  padding: 25px;
+  padding: 20px 5px;
 }
 
 .warpper .page_defualt .warp_defualt .history_warp ul li {
@@ -257,7 +288,8 @@
 }
 
 .warpper .page_defualt .warp_defualt .history_warp ul li .text_box {
-  width: 80px;
+  min-width: 80px;
+  height: 20px;
   background: rgba(0, 0, 0, 0.2);
   text-align: center;
   border-radius: 3px;
@@ -273,16 +305,50 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
   margin-top: 8px;
-  margin-left: 25px;
-}
-
-.warpper .page_defualt .warp_defualt .skills ul li .skills_warp {
   margin-left: 20px;
 }
 
+.warpper .page_defualt .warp_defualt .history_warp ul :last-child div {
+  line-height: 25px;
+}
+
+.warpper .page_defualt .warp_defualt .history_warp ul :last-child div :last-child {
+  margin-left: 0px;
+}
+
+.warpper .page_defualt .warp_defualt .skills ul li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  margin-bottom: 20px;
+}
+
+.warpper .page_defualt .warp_defualt .skills ul li .skills_warp {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-top: 8px;
+  margin-left: 10px;
+}
+
 .warpper .page_defualt .warp_defualt .skills ul li .text_box {
-  width: 80px;
+  min-width: 80px;
+  height: 20px;
   background: rgba(0, 0, 0, 0.2);
   text-align: center;
   border-radius: 3px;
@@ -291,11 +357,24 @@
 }
 
 .warpper .page_defualt .warp_defualt .skills ul li .skills_warp_sub {
-  margin-left: 30px;
+  margin-top: 10px;
+  margin-left: 40px;
+  line-height: 22px;
+}
+
+.warpper .page_defualt .warp_defualt .study ul li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  margin-bottom: 20px;
 }
 
 .warpper .page_defualt .warp_defualt .study ul li .text_box {
-  width: 80px;
+  min-width: 80px;
+  height: 20px;
   background: rgba(0, 0, 0, 0.2);
   text-align: center;
   border-radius: 3px;
@@ -304,11 +383,39 @@
 }
 
 .warpper .page_defualt .warp_defualt .study ul li .skills_warp {
-  margin-left: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-top: 8px;
+  margin-left: 10px;
 }
 
 .warpper .page_defualt .warp_defualt .study ul li .skills_warp_sub {
-  margin-left: 30px;
+  margin-top: 10px;
+  margin-left: 40px;
+  line-height: 22px;
+}
+
+.warpper .page_defualt .warp_defualt .study ul li button {
+  background: black;
+  border-radius: 5px;
+  padding: 3px 5px;
+  margin-left: 10px;
+  border: none;
+}
+
+.warpper .page_defualt .warp_defualt .study ul li button a {
+  color: white;
+  text-decoration: none;
+}
+
+.warpper .page_defualt .warp_defualt .study ul li .git_button {
+  background: #F84923;
 }
 
 .warpper .page_defualt .warp_defualt .production {
