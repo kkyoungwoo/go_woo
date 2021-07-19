@@ -1,3 +1,18 @@
+@mixin input_size {
+    width: 80%;
+    height: 35px;
+    font-size: 18px;
+    max-width: 300px;
+    font-weight: 500;
+    border-radius: 5px;
+}
+
+@mixin login_title {
+    font-size: 28px;
+    font-weight: 700;
+    margin: 25px;
+}
+
 .warpper {
     .page_defualt{
         .login_page.warp_defualt{
@@ -5,10 +20,93 @@
             flex-direction: column;
             justify-content: center;
             align-items: center;
+            img{
+                width: 150px;
+            }
+            .login_text{
+                @include login_title;
+                margin-bottom: 30px;
+            }
             .login_box{
                 display: flex;
                 flex-direction: column;
                 justify-content: center;
+                align-items: center;
+                width: 80%;
+                text-align: center;
+                border-bottom: 1px solid black;
+                input{
+                    box-sizing: border-box;
+                    margin-bottom: 5px;
+                    padding: 3px;
+                    @include input_size;
+                }
+                input:hover{
+                    padding: 3px;
+                    border: 1px solid black;
+                }
+                .login_btn{
+                    margin-bottom: 5px;
+                    @include input_size;
+                    background: rgba(0,0,0,.7);
+                    color: white;
+                }
+                .sing_up{
+                    margin-bottom: 50px;
+                    @include input_size;
+                }
+            }
+            .sign_up_box{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                margin-bottom: 25px;
+                width: 100%;
+                .simple_login{
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    width: 100%;
+                    .simple_login_text{
+                        @include login_title;
+                        font-size: 20px;
+                    }
+                    .socoal_box{
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        align-items: center;
+                        width: 80%;
+                        button{
+                            @include input_size;
+                            margin-bottom: 5px;
+                        }
+                        .google_login{
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            .google{
+                                width: 10px;
+                                background: url('../../../img/google.png');
+                                display: inline-block;
+                                min-width: 16px;
+                                min-height: 16px;
+                                background-position: center center;
+                                background-repeat: no-repeat;
+                                background-size: contain;
+                                margin: 5px;
+                                
+                            }
+                        }
+                        .github_login{
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                        }
+                    }
+                }
             }
         }
     }

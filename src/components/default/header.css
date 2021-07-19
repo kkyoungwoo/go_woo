@@ -3,6 +3,10 @@ input[type=checkbox]#gnbcheck {
   display: none;
 }
 
+.mobile_open {
+  display: none;
+}
+
 #gnbbtn {
   display: none;
   position: absolute;
@@ -136,6 +140,9 @@ input[type=checkbox]#gnbcheck {
     display: block;
   }
   #mobile_close_btn:before, #mobile_close_btn:after {
+    display: block;
+  }
+  .mobile_open {
     display: block;
   }
   section .row .column {

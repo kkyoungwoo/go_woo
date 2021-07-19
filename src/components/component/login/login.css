@@ -14,6 +14,17 @@
           align-items: center;
 }
 
+.warpper .page_defualt .login_page.warp_defualt img {
+  width: 150px;
+}
+
+.warpper .page_defualt .login_page.warp_defualt .login_text {
+  font-size: 28px;
+  font-weight: 700;
+  margin: 25px;
+  margin-bottom: 30px;
+}
+
 .warpper .page_defualt .login_page.warp_defualt .login_box {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -25,5 +36,156 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 80%;
+  text-align: center;
+  border-bottom: 1px solid black;
+}
+
+.warpper .page_defualt .login_page.warp_defualt .login_box input {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin-bottom: 5px;
+  padding: 3px;
+  width: 80%;
+  height: 35px;
+  font-size: 18px;
+  max-width: 300px;
+  font-weight: 500;
+  border-radius: 5px;
+}
+
+.warpper .page_defualt .login_page.warp_defualt .login_box input:hover {
+  padding: 3px;
+  border: 1px solid black;
+}
+
+.warpper .page_defualt .login_page.warp_defualt .login_box .login_btn {
+  margin-bottom: 5px;
+  width: 80%;
+  height: 35px;
+  font-size: 18px;
+  max-width: 300px;
+  font-weight: 500;
+  border-radius: 5px;
+  background: rgba(0, 0, 0, 0.7);
+  color: white;
+}
+
+.warpper .page_defualt .login_page.warp_defualt .login_box .sing_up {
+  margin-bottom: 50px;
+  width: 80%;
+  height: 35px;
+  font-size: 18px;
+  max-width: 300px;
+  font-weight: 500;
+  border-radius: 5px;
+}
+
+.warpper .page_defualt .login_page.warp_defualt .sign_up_box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 25px;
+  width: 100%;
+}
+
+.warpper .page_defualt .login_page.warp_defualt .sign_up_box .simple_login {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+}
+
+.warpper .page_defualt .login_page.warp_defualt .sign_up_box .simple_login .simple_login_text {
+  font-size: 28px;
+  font-weight: 700;
+  margin: 25px;
+  font-size: 20px;
+}
+
+.warpper .page_defualt .login_page.warp_defualt .sign_up_box .simple_login .socoal_box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 80%;
+}
+
+.warpper .page_defualt .login_page.warp_defualt .sign_up_box .simple_login .socoal_box button {
+  width: 80%;
+  height: 35px;
+  font-size: 18px;
+  max-width: 300px;
+  font-weight: 500;
+  border-radius: 5px;
+  margin-bottom: 5px;
+}
+
+.warpper .page_defualt .login_page.warp_defualt .sign_up_box .simple_login .socoal_box .google_login {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.warpper .page_defualt .login_page.warp_defualt .sign_up_box .simple_login .socoal_box .google_login .google {
+  width: 10px;
+  background: url("../../../img/google.png");
+  display: inline-block;
+  min-width: 16px;
+  min-height: 16px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin: 5px;
+}
+
+.warpper .page_defualt .login_page.warp_defualt .sign_up_box .simple_login .socoal_box .github_login {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 /*# sourceMappingURL=login.css.map */

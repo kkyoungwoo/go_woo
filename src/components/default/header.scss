@@ -1,5 +1,9 @@
 input[type=checkbox]#gnbcheck{ display: none; }
 
+.mobile_open{
+  display: none;
+}
+
 #gnbbtn{
     display: none;
     position: absolute;
@@ -107,12 +111,17 @@ input[type=checkbox]#gnbcheck{ display: none; }
     }
   }
   @media screen and ( max-width: 767px ) {
+
     #mobile_close_btn{
       display: block;
       &:before,&:after{
         display: block;
       }
-  }
+    }
+
+    .mobile_open{
+      display: block;
+    }
 
     section .row .column{
       flex: 100%;

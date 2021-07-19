@@ -29,20 +29,23 @@ export default function Header(){
                 <nav id="gnb">
                 <label htmlFor="gnbcheck" id="mobile_close_btn"></label>
                     <ul>
-                        <li>
-                        <Link to='/about' className="default-link" >About</Link>
+                        <li className="mobile_open">
+                            <Link to='/' className="default-link" >Home</Link>
                         </li>
                         <li>
-                        <Link to='/portfolio' className="default-link" >Portfolio</Link>
+                            <Link to='/about' className="default-link" >About</Link>
                         </li>
                         <li>
-                        <Link to='/contact' className="default-link" >Contact</Link>
+                            <Link to='/portfolio' className="default-link" >Portfolio</Link>
                         </li>
                         <li>
-                        <Link to='/gallery' className="default-link" >Gallery</Link>
+                            <Link to='/contact' className="default-link" >Contact</Link>
                         </li>
                         <li>
-                        <Link to='/login' className="default-link loginbtn" >Login</Link>
+                            <Link to='/gallery' className="default-link" >Gallery</Link>
+                        </li>
+                        <li>
+                            <Link to='/login' className="default-link loginbtn" >Login</Link>
                         </li>
                     </ul>
                 </nav>
