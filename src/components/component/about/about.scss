@@ -4,11 +4,13 @@
     align-items: center;
     min-width: 80px;
     height: 20px;
-    background: rgba(0, 0, 0, .2);
+    background: rgba(59, 59, 59, .2);
+    box-sizing: border-box;
     text-align: center;
     border-radius: 3px;
     margin: 8px;
     padding: 2px;
+    margin-left: 5%;
 }
 
 @mixin icon_bg {
@@ -134,17 +136,7 @@
 
 .warpper {
     .page_defualt {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 100%;
-        height: 100%;
-        padding: 80px 0px;
-        margin: 0 auto;
         .warp_defualt {
-            width: 80%;
-            border: 1px solid black;
-            box-shadow: 5px 5px 15px 5px skyblue;
             .title_text{
                 text-align: center;
                 font-size: 30px;
@@ -160,8 +152,10 @@
                 font-weight: 700;
                 text-align: left;
                 padding: 20px 5px;
+                margin-left: 5%;
             }
             .history_warp {
+                padding-right: 5%;
                 ul {
                     li{
                         display: flex;
@@ -195,6 +189,10 @@
                 }
             }
             .skills{
+                padding-right: 5%;
+                .subtitle_text{
+                    margin-top: 30px;
+                }
                 ul{
                     li{
                         display: flex;
@@ -217,6 +215,7 @@
                 }
             }
             .study{
+                padding-right: 5%;
                 ul{
                     li{display: flex;
                         align-items: flex-start;

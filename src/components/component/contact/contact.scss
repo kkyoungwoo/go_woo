@@ -1,3 +1,86 @@
+@mixin textbox_bg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 80px;
+    height: 20px;
+    background: rgba(59, 59, 59, .2);
+    box-sizing: border-box;
+    text-align: center;
+    border-radius: 3px;
+    margin: 8px 8px 8px 0;
+    padding: 2px;
+}
+
 .warpper {
-    
+    .page_defualt{
+        .warp_defualt{
+            .contact{
+                padding-left: 10%;
+                .main_text{
+                }
+                .main_text.first{
+                    font-weight: 600;
+                    margin-bottom: 8px;
+                }
+                .main_text.secound{
+                    margin-bottom: 20px;
+                }
+                ul{
+                    margin-bottom: 20px;
+                    li{
+                        display: flex;
+                        justify-content: flex-start;
+                        align-items: center;
+                       .text_box{
+                        @include textbox_bg;
+                       } 
+                       .text_box_sub{
+                        display: flex;
+                        div{
+                            margin-right: 10px;
+                        }
+                       }
+                    }
+                }
+                .area_box{
+                    display: flex;
+                    margin-bottom: 20px;
+                    textarea{
+                        width: 80%;
+                        max-width: 900px;
+                        height: 100px;
+                        resize: none;
+                        box-sizing: border-box;
+                    }
+                    button{
+                        width: 10%;
+                        height: 100px;
+                        box-sizing: border-box;
+                    }
+                }
+            }
+            .talk_warp{
+                width: 80%;
+                padding: 30px 10%;
+                border-top: 1px solid black;
+                margin: 0 auto;
+                
+                .messagebox{
+                    border: 1px solid black;
+                    padding: 2%;
+                    height: 100px;
+                }
+                .messageinner{
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    padding: 2%;
+                    border: 1px solid black;
+                    border-top: none;
+                    margin-bottom: 20px;
+                }
+            }
+        }
+    }
 }
