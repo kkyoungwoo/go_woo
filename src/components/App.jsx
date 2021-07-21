@@ -13,19 +13,10 @@ import NotFound from './common/NotFound'
 
 import { BrowserRouter as Router ,Route ,Switch } from "react-router-dom";
 import { connect } from 'react-redux'
-import {Helmet} from "react-helmet"
 function App(props) {
 
   return (
     <div className="App">
-      <Helmet>
-        <mata name="description" content="고경우의 포트폴리오 사이트"/>
-        <mata property="og:type" content="website"/>
-        <mata property="og:title" content="Go-Woo portfoilo"/>
-        <mata property="og:description" content="고경우의 포트폴리오 사이트입니다."/>
-        {<mata property="og:image" content="../assets/common/logo/logo_black.png"/>}
-        <mata property="og:url" content="https://go-woo.web.app"/>
-      </Helmet>
       {/*콘솔오류확인필요*/}
       <Router>
         <Header />

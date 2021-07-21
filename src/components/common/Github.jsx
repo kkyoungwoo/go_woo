@@ -4,7 +4,7 @@ import './github.css'
 function Ggithub() {
     return (
         <div>
-            Ggithub
+            Ggithub padding: 0 10%;
         </div>
     )
 }

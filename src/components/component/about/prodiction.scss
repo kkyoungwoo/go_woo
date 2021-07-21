@@ -8,12 +8,14 @@
         font-weight: 700;
         letter-spacing: 3px;
         margin-top: 30px;
+        padding: 0 10%;
     }
     .sub_text{
         font-size: 16px;
         font-weight: 500;
         letter-spacing: 1px;
         margin-top: 5px;
+        padding: 0 10%;
     }
 }
 
@@ -22,15 +24,23 @@
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    margin: 15px;
+    margin: 15px auto;
+    width: 430px;
+    @media screen and(max-width: 660px) {
+        width: 85%;
+    }
     .production_ea{
         display: flex;
         justify-content: center;
         align-items: center;
-        width: 120px;
-        height: 120px;
+        width: 42%;
+        height: 49%;
         border: 1px solid black;
         margin: 10px;
+        padding: 20px 0;
+        @media screen and(max-width: 480px) {
+            width: 100%;
+        }
         a{
             img{
                 width: 80px;

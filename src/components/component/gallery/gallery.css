@@ -1,11 +1,90 @@
-.warpper .page_defualt.gallery {
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+.warpper .page_defualt.gallery .warp_defualt .cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 70vh;
 }
 
-.warpper .page_defualt.gallery img {
-  width: 100px;
+.warpper .page_defualt.gallery .warp_defualt .cards .card {
+  position: absolute;
+}
+
+.warpper .page_defualt.gallery .warp_defualt .cards .card img {
+  width: 40vw;
+  max-width: 300px;
+  -webkit-transform: scale(1);
+          transform: scale(1);
+  -webkit-user-drag: none;
+}
+
+.warpper .page_defualt.gallery .warp_defualt .cards .card img::-moz-selection {
+  background: none;
+}
+
+.warpper .page_defualt.gallery .warp_defualt .cards .card img::selection {
+  background: none;
+}
+
+.warpper .page_defualt.gallery .warp_defualt .cards .card:nth-child(1) {
+  -webkit-transform: rotate(10deg);
+          transform: rotate(10deg);
+}
+
+.warpper .page_defualt.gallery .warp_defualt .cards .card:nth-child(10):hover {
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+
+.warpper .page_defualt.gallery .warp_defualt .cards .card:nth-child(2) {
+  -webkit-transform: rotate(20deg);
+          transform: rotate(20deg);
+}
+
+.warpper .page_defualt.gallery .warp_defualt .cards .card:nth-child(3) {
+  -webkit-transform: rotate(30deg);
+          transform: rotate(30deg);
+}
+
+.warpper .page_defualt.gallery .warp_defualt .cards .card:nth-child(4) {
+  -webkit-transform: rotate(10deg);
+          transform: rotate(10deg);
+}
+
+.warpper .page_defualt.gallery .warp_defualt .cards .card:nth-child(5) {
+  -webkit-transform: rotate(20deg);
+          transform: rotate(20deg);
+}
+
+.warpper .page_defualt.gallery .warp_defualt .cards .card:nth-child(6) {
+  -webkit-transform: rotate(30deg);
+          transform: rotate(30deg);
+}
+
+.warpper .page_defualt.gallery .warp_defualt .cards .card:nth-child(7) {
+  -webkit-transform: rotate(10deg);
+          transform: rotate(10deg);
+}
+
+.warpper .page_defualt.gallery .warp_defualt .cards .card:nth-child(8) {
+  -webkit-transform: rotate(20deg);
+          transform: rotate(20deg);
+}
+
+.warpper .page_defualt.gallery .warp_defualt .cards .card:nth-child(9) {
+  -webkit-transform: rotate(30deg);
+          transform: rotate(30deg);
+}
+
+.warpper .page_defualt.gallery .warp_defualt .cards .card:nth-child(10) {
+  -webkit-transform: rotate(10deg);
+          transform: rotate(10deg);
 }
 /*# sourceMappingURL=gallery.css.map */

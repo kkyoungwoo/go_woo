@@ -16,6 +16,7 @@
           user-select: none;
   background: skyblue;
   margin: 0 auto;
+  overflow: hidden;
 }
 
 .Carousel_wrap .Carousel_box {
