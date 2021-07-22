@@ -1,4 +1,21 @@
+@mixin carousel_btn {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    border-radius: 100%;
+    font-size: 20px;
+    z-index: 1;
+    @media screen and (max-width: 1380px) {
+        display: flex;
+    }
+}
+
+
 .Carousel_wrap{
+    position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -8,12 +25,29 @@
     background: skyblue;
     margin: 0 auto;
     overflow: hidden;
+    .prev_btn{
+        position: absolute;
+        left: 3%;
+        padding-right: 3px;
+        @include carousel_btn;
+    }
+    .next_btn{
+        position: absolute;
+        right: 3%;
+        padding-left: 3px;
+        @include carousel_btn;
+    }
     .Carousel_box{
         padding: 10px;
         border: 1px solid black;
         margin: 0 10px;
         cursor: pointer;
         box-sizing: border-box;
+        transform: translateX(0px);
+        transition: 1s ease;
+        @media screen and (min-width: 1380px) {
+            transform: translateX(0rem) !important;
+        }
     }
 }
 

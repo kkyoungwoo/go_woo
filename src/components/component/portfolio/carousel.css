@@ -1,4 +1,5 @@
 .Carousel_wrap {
+  position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -19,6 +20,60 @@
   overflow: hidden;
 }
 
+.Carousel_wrap .prev_btn {
+  position: absolute;
+  left: 3%;
+  padding-right: 3px;
+  display: none;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 30px;
+  height: 30px;
+  background-color: white;
+  border-radius: 100%;
+  font-size: 20px;
+  z-index: 1;
+}
+
+@media screen and (max-width: 1380px) {
+  .Carousel_wrap .prev_btn {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+
+.Carousel_wrap .next_btn {
+  position: absolute;
+  right: 3%;
+  padding-left: 3px;
+  display: none;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 30px;
+  height: 30px;
+  background-color: white;
+  border-radius: 100%;
+  font-size: 20px;
+  z-index: 1;
+}
+
+@media screen and (max-width: 1380px) {
+  .Carousel_wrap .next_btn {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+
 .Carousel_wrap .Carousel_box {
   padding: 10px;
   border: 1px solid black;
@@ -26,6 +81,17 @@
   cursor: pointer;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  -webkit-transform: translateX(0px);
+          transform: translateX(0px);
+  -webkit-transition: 1s ease;
+  transition: 1s ease;
+}
+
+@media screen and (min-width: 1380px) {
+  .Carousel_wrap .Carousel_box {
+    -webkit-transform: translateX(0rem) !important;
+            transform: translateX(0rem) !important;
+  }
 }
 
 .carousel_title {
