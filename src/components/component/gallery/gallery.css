@@ -1,4 +1,5 @@
 .warpper .page_defualt.gallery .warp_defualt .cards {
+  position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -13,6 +14,10 @@
 
 .warpper .page_defualt.gallery .warp_defualt .cards .card {
   position: absolute;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
 }
 
 .warpper .page_defualt.gallery .warp_defualt .cards .card img {

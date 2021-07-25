@@ -1,5 +1,6 @@
-import React from "react";
+import React, { useState } from "react";
 import './gallery.css'
+import { useDrag } from "react-use-gesture"
 
 const cards = [
     '../assets/gallery/insur.jpg',
@@ -14,15 +15,30 @@ const cards = [
     '../assets/gallery/bike.jpg',
 ]
 
+
 export default function Gallery(){
 
-
+    const [card,setCard] = useState({x:0,y:0})
+    const initialPosition = useDrag((params) =>{
+        setCard({
+            x: params.offset[0],
+            y: params.offset[1],
+        });
+    })
 
     return(
         <div className="warpper">
             <div className="page_defualt gallery">
                 <div className="warp_defualt">
-                    <div className="cards">
+                    <div {...initialPosition()}
+                    style={{
+                        position:"relative",
+                        top:card.x,
+                        left:card.y
+                    }}>
+                        드래그테스트
+                    </div>
+                    <div className="cards" >
                         {cards.map((item,idx)=>{
                             return(
                                 <div key={idx} className="card">

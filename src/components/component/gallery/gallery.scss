@@ -21,6 +21,7 @@
     .page_defualt.gallery {
         .warp_defualt{
             .cards{
+                position: relative;
                 display: flex;
                 justify-content: center;
                 align-items: center;
@@ -28,6 +29,7 @@
                 
                 .card{
                     position: absolute;
+                    user-select: none;
                     img{
                         width: 40vw;
                         max-width: 300px;

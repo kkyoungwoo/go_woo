@@ -1,9 +1,9 @@
-import React from "react";
+import React,{ useCallback, useState } from "react";
 import './contact.css'
 
 export default function Contact(){
 
-    const commentData = [
+    const [commentData,setCommentData] = useState([
         {
             name: "1번 메세지",
             message: "1번 메세지1번 메세지1번 메세지1번 메세지1번 메세지1번 메세지1번 메세지1번 메세지",
@@ -18,8 +18,13 @@ export default function Contact(){
             name: "3번 메세지",
             message: "3번 메세지3번 메세지3번 메세지3번 메세지3번 메세지3번 메세지",
             date: "2021.06.09 12:15 오전",
-        },
-    ]
+        },  
+    ])
+
+    const [name,setName] = useState("")
+    const [message,setMessage] = useState("")
+    const [dete,setDete] = useState("")
+
 
     return(
         <div className="warpper">
@@ -53,8 +58,18 @@ export default function Contact(){
                             </li>
                         </ul>
                         <div className="area_box">
-                            <textarea name="comment" id="comment" cols="30" rows="10" maxLength="300" placeholder="저에게 하고싶은 말을 남겨주세요!"></textarea>
-                            <button>등록</button>
+                            <textarea name="comment" id="comment" cols="30" rows="10" maxLength="300" placeholder="저에게 하고싶은 말을 남겨주세요!"
+                                onChange={(e)=>setMessage(e.target.value)}
+                            ></textarea>
+                            <button onClick={()=>{
+                                var arrayCopy = [...commentData]
+                                arrayCopy.unshift({
+                                    name: "이름데이터",
+                                    message: message,
+                                    date:new Date().toLocaleDateString()
+                                })
+                                setCommentData(arrayCopy)
+                            }}>등록</button>
                         </div>
                     </div>
                     <div className="talk_warp">
